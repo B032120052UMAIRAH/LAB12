@@ -21,31 +21,31 @@ public class RainFallByteBasedGenerator {
 		
 		// Data declaration
 		// Station id
-		int id[] = {2421003, 2322006, 2321006, 2222002, 2424031, 2324032};
+		int id[] = {2421003, 2322006, 2324032, 2324033, 2222005, 2223023};
 		
 		// Station name
-		String station[] = {"Simpang Ampat", "Melaka Pindah", "Ladang Lendu", "Durian Tunggal", "Datoh Kramat", "Ldg.Sing Lian"};
+		String station[] = {"Simpang Ampat", "Melaka Pindah", "Ldg.Sing Lian","Hospital Jasin","Klebang","Sungai Duyong"};
 		
 		// district name
-		String district[] = {"Alor Gajah", "Alor Gajah", "Alor Gajah", "Alor Gajah", "Jasin      ", "Jasin     "};
-		
-		// readings on 3 June 2023
-		double readings1[] = {4.0, 0.0, 2.0, 0.0, 0.0, 0.0};
-		
-		// readings on 4 June 2023
-		double readings2[] = {1.0, 0.0, 0.0, 0.0, 0.0, 0.0};
+		String district[] = {"Alor Gajah", "Alor Gajah", "Jasin     ", "Jasin     ","Melaka Tengah", "Melaka Tengah"};
 		
 		// readings on 5 June 2023
-		double readings3[] = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0};
+		double readings1[] = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0};
 		
 		// readings on 6 June 2023
-		double readings4[] = {6.0, 2.0, 3.0, 37.0, 0.0, 0.5};
+		double readings2[] = {6.0, 2.0, 0.5, 11.0, 75.5, 43.0};
 		
 		// readings on 7 June 2023
-		double readings5[] = {19.0, 18.5, 4.0, 6.0, 17.0, 4.5};
+		double readings3[] = {19.0, 18.5, 4.5, 15.0, 25.5, 26.0};
 		
 		// readings on 8 June 2023
-		double readings6[] = {1.0, 2.5, 0.0, 9.0, 0.0, 0.5};
+		double readings4[] = {1.0, 2.5, 0.0, 31.0, 25.5, 26.0,};
+		
+		// readings on 9 June 2023
+		double readings5[] = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0};
+		
+		// readings on 10 June 2023
+		double readings6[] = {61.0, 5.0, 0.0, 0.0, 10.0, 21.5};
 		
 		try {
 			

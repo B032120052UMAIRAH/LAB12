@@ -39,7 +39,7 @@ public class RainFallByteBasedReader {
 			
 			// Variable declaration for calculation
 			// Total number of records read from the source file
-			int noOfRecords = 0;
+			int numOfRecords = 0;
 			
 			// Total daily rainfall readings for each station
 			double sum = 0.0;
@@ -102,7 +102,7 @@ public class RainFallByteBasedReader {
 				districtCount.add(district);
 				
 				// Auto update for current number of records
-				noOfRecords ++;
+				numOfRecords ++;
 			}
 			
 			System.out.println("\n");
@@ -111,7 +111,7 @@ public class RainFallByteBasedReader {
 			for(int index = 0; index < stations.size(); index++)
 			{
 				// Calculation for average daily rainfall readings in each station
-				double average = totalRainfall.get(index) / noOfRecords;
+				double average = totalRainfall.get(index) / numOfRecords;
 				
 				// format the average in one decimal places
 				String formattedAverage = String.format("%.1f", average);

@@ -72,9 +72,9 @@ public class RainFallReader {
 			System.out.println("\n\nTotal Daily Rainfall: " + totalRainFall);
 			
 			//Calculate avg daily rainfall
-			double averageRainfall = totalRainFall / Double.valueOf(numOfRecord);
+			double avgRainfall = totalRainFall / Double.valueOf(numOfRecord);
 						
-			String formatAvg = String.format("%.1f", averageRainfall);
+			String formatAvg = String.format("%.1f", avgRainfall);
 			System.out.print("\nAverage rainfall for " + numOfRecord + " days from station Simpang Ampat in Alor Gajah district: " + formatAvg);
 			
 			
